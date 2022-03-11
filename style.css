@@ -192,12 +192,11 @@ body {
 }
 
 .colorpal .colors {
-  width: 50%;
-  margin: 30px;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, 10em);
   grid-column-gap: 30px;
-  margin-top: 60px;
+  justify-content: center;
 }
 
 .colorpal .colors .color {
@@ -205,6 +204,7 @@ body {
   box-shadow: 1px 1px 40px black;
   padding: 8px 10px 20px 10px;
   border-radius: 14px;
+  margin-bottom: 2em;
 }
 
 .colorpal .colors .color .color-img {
